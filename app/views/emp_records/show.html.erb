@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @emp_record.firstname %>
+</p>
+
+<p>
+  <strong>Middlename:</strong>
+  <%= @emp_record.middlename %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @emp_record.lastname %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @emp_record.address %>
+</p>
+
+<p>
+  <strong>Mobile:</strong>
+  <%= @emp_record.mobile %>
+</p>
+
+<p>
+  <strong>Landline:</strong>
+  <%= @emp_record.landline %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @emp_record.email %>
+</p>
+
+<p>
+  <strong>Unit:</strong>
+  <%= @emp_record.unit %>
+</p>
+
+<p>
+  <strong>Idnumber:</strong>
+  <%= @emp_record.idnumber %>
+</p>
+
+<p>
+  <strong>Tin:</strong>
+  <%= @emp_record.tin %>
+</p>
+
+<p>
+  <strong>Designation:</strong>
+  <%= @emp_record.designation %>
+</p>
+
+<p>
+  <strong>Additionalinfo:</strong>
+  <%= @emp_record.additionalinfo %>
+</p>
+
+<%= link_to 'Edit', edit_emp_record_path(@emp_record) %> |
+<%= link_to 'Back', emp_records_path %>
